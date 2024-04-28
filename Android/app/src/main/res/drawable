@@ -1,0 +1,5 @@
+The "Android/app/src/main/res/drawable" directory is used to store drawable resources like images, shapes, and colors. It's not a file that contains code, but a directory where you would place your image files. 
+
+For this app, you would place your polyhedral dice icon image in this directory. The image file might be named something like "polyhedral_dice_icon.png". 
+
+Please note that the actual creation or editing of image files is beyond the scope of an AI model. You would need to use an image editing software to create or modify your image files.
