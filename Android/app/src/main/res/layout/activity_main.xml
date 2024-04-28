@@ -1,0 +1,55 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/diceNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <Spinner
+        android:id="@+id/diceType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/diceNumber"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/modifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/diceType"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/diceRoller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll"
+        android:layout_below="@id/diceNumber"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/logScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/diceRoller"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
+```
